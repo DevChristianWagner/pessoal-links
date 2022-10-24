@@ -1,0 +1,112 @@
+:root {
+    --secondary-text-color: #5443d6;
+    --text-color: #FFF;
+    --bg-color: #292929;
+
+    --bg-link: #000000;
+}
+
+
+/* --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 440px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--text-color);
+}
+
+img {
+    margin-top: 7vh;
+    margin-bottom: 15px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+h1 span {
+    color: var(--secondary-text-color);
+}
+
+div img {
+    width: 30px;
+}
+
+p {
+    font-size: 18px;
+    max-width: 420px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+#links-container {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    min-width: 420px;
+    margin: 10px 0;
+    border-radius: 8px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+a img {
+    border-radius: 0;
+    color: var(--text-color);
+    margin: 0;
+    margin-right: 15px;
+}
+
+.link {
+    background-color: var(--bg-link);
+}
+
+.instagram-link {
+    background: linear-gradient(225deg, #1400C8 0%, #B900B4 50.52%, #F50000 100%);
+}
+
+.twitch-link {
+    background-color: #9146FF;
+}
+
+.whatsapp-link {
+    background-color: #455A64;
+}
+
+.other-link {
+    background-color: #0085FF;
+}
+
+/* --- Livros ---*/
+
+.livros img {
+    border-radius: 0;
+    width: 150px;
+}
+
+.livros a{
+    display: flex;
+    flex-direction: column;
+    
+}

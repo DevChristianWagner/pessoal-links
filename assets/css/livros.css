@@ -1,0 +1,62 @@
+:root {
+    --secondary-text-color: #5443d6;
+    --text-color: #FFF;
+    --bg-color: #292929;
+
+    --bg-link: #000000;
+}
+
+
+/* --- */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--text-color);
+}
+
+p {
+    font-size: 18px;
+    max-width: 420px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+img {
+    width: 150px;
+}
+
+div.livros {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.livros div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 40px;
+}
+
+a:hover {
+ color: var(--secondary-text-color);
+ transition: 300ms;
+}
