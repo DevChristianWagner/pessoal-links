@@ -24,7 +24,7 @@
 <div id="sobre"></div>
 
 <h2> 🪂 Sobre o projeto 🪂 </h2>
-Esse projeto foi feito com o intuito de facilitar os links para minhas redes sociais. Veja você mesmo [clicando aqui](https://devchristianwagner-pessoallinks.netlify.app/).
+Esse projeto foi feito com o intuito de facilitar os links para minhas redes sociais. Veja você mesmo [clicando aqui](https://devchristianwagner-pessoallinks.netlify.app/) .
 
 
 
@@ -51,10 +51,10 @@ Para iniciar a aplicação é necessario ter em sua maquina  o  <img src="https:
 
 ```bash 
 # Clone o repositório
-$ git clone https://github.com/DevChristianWagner/game-matamosquito/
+$ git clone https://github.com/DevChristianWagner/pessoal-links/
 
 # Acesse a pasta do projeto
-$ cd game-matamosquito/
+$ cd pessoal-links/
 
 # Abra o index.html ou acesse online em devchristianwagner-pesoallinks.netlify.app
 
